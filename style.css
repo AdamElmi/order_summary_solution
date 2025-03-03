@@ -89,17 +89,18 @@
     gap: 20px;
   }
   .price {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    
   }
   .price h2 {
     font-family: "Red Hat Display";
     font-size: 16px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
-    text-align: left;
+   
   }
   .price span {
     color: hsl(224, 23%, 55%);
@@ -229,26 +230,24 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    padding: 1rem;
-    gap: 30px;
+  
+    
     
   
   }
   .price {
     width: 100%;
-    min-height: 4rem;
+    padding: 1rem;
     display: flex;
-    justify-content: center;
-  gap:20px;
+    justify-content: space-between;
   align-items: center;
- border: 5px solid plum;
+
   
 
   }
   .price h2 {
     font-family: "Red Hat Display";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     text-align: left;
@@ -256,7 +255,7 @@
   .price span {
     color: hsl(224, 23%, 55%);
     font-family: "Red Hat Display";
-    font-weight: 700;
+    font-weight: 500;
   }
   .price a {
     color: hsl(245, 75%, 52%);
