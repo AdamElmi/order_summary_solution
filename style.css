@@ -175,7 +175,6 @@
 
 
 
-
 @media (max-width: 480px) and (max-width: 768px) {
   .wrapper {
     background-color: hsl(225, 100%, 98%);
@@ -193,7 +192,7 @@
   }
   .card {
     width: 90%;
-    min-height: 30rem;
+    
     background-color: hsl(0, 0%, 100%);
     top: 10%;
     position: absolute;
@@ -232,10 +231,11 @@
 
   .annual_card_plan {
     background-color: hsl(225, 100%, 98%);
-    width: 80%;
+    width: 90%;
     height: 5rem;
     border-radius: 10px;
-    margin: 1rem auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     padding: 1rem;
     gap: 20px;
@@ -294,7 +294,7 @@
     display: flex;
     justify-content: center;
     font-family: "Red Hat Display";
-    margin-bottom: 3rem;
+    margin-bottom: 0.9rem;
   }
 
   .cancel a {
