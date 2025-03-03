@@ -232,152 +232,17 @@
     display: flex;
     padding: 1rem;
     gap: 30px;
+    
+  
   }
   .price {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-  }
-  .price h2 {
-    font-family: "Red Hat Display";
-    font-size: 16px;
-    font-weight: 900;
-    color: hsl(223, 47%, 23%);
-    text-align: left;
-  }
-  .price span {
-    color: hsl(224, 23%, 55%);
-    font-family: "Red Hat Display";
-    font-weight: 700;
-  }
-  .price a {
-    color: hsl(245, 75%, 52%);
-    font-family: "Red Hat Display";
-    font-weight: 700;
-
-    text-decoration: underline;
-    font-size: 14px;
-  }
-  .price a:hover {
-    cursor: pointer;
-    color: hsl(267, 100%, 50%);
-    text-decoration: none;
-  }
-  .proceed_link {
-    width: 80%;
-    height: 3rem;
-    border-radius: 10px;
-    background-color: hsl(245, 75%, 52%);
-    display: flex;
-    justify-content: center;
-    margin: 1rem auto;
-    transition: background-color 300ms ease;
-  }
-  .proceed_link a {
-    text-decoration: none;
-    padding: 10px 20px;
-    color: hsl(0, 0%, 100%);
-    font-family: "Red Hat Display";
-    font-weight: 900;
-  }
-  .proceed_link a:hover {
-    cursor: pointer;
-  }
-  .proceed_link:hover {
-    background-color: hsl(267, 60%, 62%);
-  }
-
-  .cancel {
-    display: flex;
-    justify-content: center;
-    font-family: "Red Hat Display";
-    margin-bottom: 0.9rem;
-  }
-
-  .cancel a {
-    font-family: "Red Hat Display";
-    font-weight: 900;
-    color: hsl(224, 23%, 55%);
-    text-decoration: none;
-  }
-
-  .cancel a:hover {
-    cursor: pointer;
-    color: hsl(223, 47%, 23%);
-  }
-}
-
-@media (max-width: 376px) and (max-width: 480px) {
-  .wrapper {
-    background-color: hsl(225, 100%, 98%);
     width: 100%;
-    min-height: 60rem;
-
-    position: relative;
-  }
-  .pattern img {
-    display: none;
-  }
-  #mobile_background_img img {
-    width: 100%;
-    height: 100%;
-  }
-  .card {
-    width: 90%;
-
-    background-color: hsl(0, 0%, 100%);
-    top: 10%;
-    position: absolute;
-    left: 5%;
-    border-radius: 18px;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .music_image img {
-    width: 100%;
-    border-top-right-radius: 18px;
-    border-top-left-radius: 18px;
-  }
-
-  .card h1 {
-    margin-top: 3rem;
-    font-family: "Red Hat Display";
-    font-weight: 900;
-    text-align: center;
-
-    font-size: 1.6rem;
-  }
-
-  .card p {
-    font-family: "Red Hat Display";
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    color: hsl(224, 23%, 55%);
-    padding: 2rem;
-    max-width: 40ch;
-    line-height: 1.6em;
-    padding-left: 3rem;
-  }
-
-  .annual_card_plan {
-    background-color: hsl(225, 100%, 98%);
-    width: 95%;
-    height: 5rem;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    padding: 1rem;
-    gap: 30px;
-  }
-  .price {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+ 
+    
+
   }
   .price h2 {
     font-family: "Red Hat Display";
