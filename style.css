@@ -180,7 +180,7 @@
 
 
 
-@media (max-width: 480px) and (max-width: 768px) {
+@media (max-width: 375px) and (max-width: 768px) {
   .wrapper {
     background-color: hsl(225, 100%, 98%);
     width: 100%;
@@ -236,14 +236,14 @@
 
   .annual_card_plan {
     background-color: hsl(225, 100%, 98%);
-    width: 80%;
+    width: 95%;
     height: 5rem;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     padding: 1rem;
-    gap: 20px;
+    gap: 30px;
   }
   .price{
     display: flex;
@@ -257,19 +257,23 @@
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     text-align: left;
+    flex: 1 0 0;
+   
   }
   .price span {
     color: hsl(224, 23%, 55%);
     font-family: "Red Hat Display";
     font-weight: 700;
+  
   }
   .price a {
     color: hsl(245, 75%, 52%);
     font-family: "Red Hat Display";
     font-weight: 700;
-    
+
     text-decoration: underline;
     font-size: 14px;
+    flex:2;
   }
   .price a:hover {
     cursor: pointer;
