@@ -224,7 +224,7 @@
 
   .annual_card_plan {
     background-color: hsl(225, 100%, 98%);
-    width: 85%;
+    width: 90%;
     height: 5rem;
     border-radius: 10px;
     margin-left: auto;
@@ -237,11 +237,12 @@
   }
   .price {
     width: 100%;
+    min-height: 4rem;
     display: flex;
     justify-content: center;
   gap:20px;
   align-items: center;
- 
+ border: 5px solid plum;
   
 
   }
